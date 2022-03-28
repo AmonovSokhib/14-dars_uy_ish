@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+ min-width: 1200px;
+ height: 720px;
+ margin: 0 50px;
+ background-color: rgb(41, 201, 140);
+}
+.container{
+    width: 600px;
+   height: 500px;
+   background-color: #fff;
+   position: absolute;
+ left:450px;
+ top: 150px;
+ 
+}
+.head{
+    
+}
