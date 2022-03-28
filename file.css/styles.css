@@ -4,20 +4,65 @@
     box-sizing: border-box;
 }
 .section{
- min-width: 1200px;
- height: 720px;
- margin: 0 50px;
- background-color: rgb(41, 201, 140);
+    min-width: 1200px;
+    height: 700px;
+    margin: 0 50px;
+    background-color: rgb(68, 151, 119);
 }
 .container{
     width: 600px;
-   height: 500px;
-   background-color: #fff;
-   position: absolute;
- left:450px;
- top: 150px;
- 
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    left:450px;
+    top: 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #555;
+ background-image: url(/file.css/img/bicycle.png);
+ background-size: contain;
+background-position-y: 220px;
+ background-repeat: no-repeat;
 }
+
 .head{
-    
+     display: flex;
+     width: 500px;
+      margin: 0 auto;
+     margin-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-right: 250px;
+}
+i{
+    padding: 15px 15px;
+    font-size: 20px;
+    border: 2px solid rgb(121, 121, 109);
+    border-radius: 50%;
+
+}
+i:hover{
+    box-shadow: 0 0 10px rgb(46, 41, 41);
+}
+.text{
+    width: 500px;
+    margin: 20px 50px;
+    color: #aaa;
+}
+.tittles{
+  width: 500px; 
+  margin: 10px 50px;
+   
+}
+h3{
+    color: rgb(100, 94, 94);
+}
+strong{
+    color: black;
+    font-size: 24px;
+}
+.tittle{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
 }
